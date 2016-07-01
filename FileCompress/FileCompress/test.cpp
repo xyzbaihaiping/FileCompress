@@ -7,9 +7,9 @@ int main()
 {
 	int begin = GetTickCount();
 	TestCompressFile();
-	int end = GetTickCount();
 	TestUnCompressFile();
-	
+	int end = GetTickCount();
+
 	cout << "begin:" << begin << endl;
 	cout << "end:" << end << endl;
 
